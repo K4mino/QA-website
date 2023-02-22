@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="modal__chat"><svg role="presentation" width="62" height="62" xmlns="http://www.w3.org/2000/svg"><g fill="#27D061" fill-rule="nonzero"><path d="M32.367 14.888c-8.275 0-15.004 6.726-15.007 14.993a14.956 14.956 0 0 0 2.294 7.98l.356.567-1.515 5.533 5.677-1.488.548.325a14.979 14.979 0 0 0 7.634 2.09h.006c8.268 0 14.997-6.727 15-14.995a14.9 14.9 0 0 0-4.389-10.608 14.898 14.898 0 0 0-10.604-4.397zm8.417 21.34c-.369 1.052-2.138 2.013-2.989 2.142-.763.116-1.728.164-2.789-.179a25.28 25.28 0 0 1-2.524-.949c-4.444-1.95-7.345-6.502-7.566-6.802-.222-.301-1.809-2.443-1.809-4.661 0-2.218 1.144-3.307 1.55-3.759.406-.451.886-.564 1.181-.564.295 0 .591.003.849.016.272.014.637-.105.996.773.37.903 1.255 3.12 1.366 3.346.11.225.185.488.037.79-.148.3-.222.488-.443.75-.222.264-.465.588-.664.79-.222.224-.453.469-.194.92.258.45 1.147 1.926 2.463 3.12 1.692 1.535 3.119 2.011 3.562 2.237.443.226.701.188.96-.113.258-.3 1.106-1.316 1.401-1.766.295-.45.59-.376.997-.226.406.15 2.583 1.24 3.026 1.466.443.226.738.338.849.526.11.188.11 1.09-.259 2.143z"></path><path d="M31 0C13.88 0 0 13.88 0 31c0 17.12 13.88 31 31 31 17.12 0 31-13.88 31-31C62 13.88 48.12 0 31 0zm1.283 47.573h-.007c-3 0-5.948-.75-8.566-2.171l-9.502 2.48 2.543-9.243a17.735 17.735 0 0 1-2.392-8.918c.003-9.836 8.044-17.838 17.924-17.838 4.795.002 9.296 1.86 12.68 5.232 3.384 3.371 5.247 7.853 5.245 12.62-.004 9.836-8.046 17.838-17.925 17.838z"><a href="https://wa.me/77761255952?text=У%20меня%20есть%20вопрос"></a></path></g></svg><span class="whatsapp">Whatsapp</span></div>
+        <div class="modal__btn"><svg role="presentation" class="t825__icon-close" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708)" x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708)" x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg><svg role="presentation" class="t825__icon active" width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffffff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M11.2667 12.6981H23.3667M11.2667 16.4717H23.3667M4.8104 23.5777C2.4311 21.1909 1 18.1215 1 14.7736C1 7.16679 8.38723 1 17.5 1C26.6128 1 34 7.16679 34 14.7736C34 22.3804 26.6128 28.5472 17.5 28.5472C15.6278 28.5472 13.8286 28.2868 12.1511 27.8072L12 27.7925L5.03333 31V23.8219L4.8104 23.5777Z"></path></svg></div>
+        <section class="header">
+            <div class="container">
+                <header class="header__inner">
+                    <div class="header__logo-wrapper">
+                        <img src="https://thumb.tildacdn.com/tild3030-3033-4364-a330-626235393463/-/resize/400x/-/format/webp/Group_5_1.png" alt="">
+                    </div>
+                </header>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__left">
+                        <div class="intro__title">6 шагов для старта карьеры <br/> <span class="intro__title light-blue">тестировщика с нуля</span></div>
+                        <div class="intro__subtitle">Бесплатный вебинар <br/><img src="https://static.tildacdn.com/tild6133-3334-4337-b866-343332366363/chronometer_watch_3_.svg" alt="">  21 февраля, 20:30 по Астане</div>
+                        <button class="intro__btn btn"><a href="#application">Оставить заявку</a></button>
+                    </div>
+                    <div class="intro__right">
+                        <div class="intro__img-wrapper">
+                            <img src="images/intro.jpg" alt="">
+                            <div class="intro__book-wrapper">
+                                <img class="tn-atom__img t-img loaded" data-original="https://static.tildacdn.com/tild3636-3765-4636-b431-383136303465/notebook-dynamic-col.svg" imgfield="tn_img_1654882202503" src="https://static.tildacdn.com/tild3636-3765-4636-b431-383136303465/notebook-dynamic-col.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="friend">
+            <div class="row">
+                <div class="row__inner">
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="friend__inner">
+                    <div class="friend__img">
+                        <img src="images/friend.jpg" alt="">
+                        <img class="fire-img" src="https://thumb.tildacdn.com/tild3933-3136-4536-b530-626464373266/-/resize/200x/-/format/webp/fire-dynamic-premium.png" alt="">
+                    </div>
+                    <div class="friend__text">
+                        Все участники вебинара получат в качестве подарка авторский гайд от спикера- «Что должен знать каждый начинающий тестировщик»
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row__inner">
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                    <div class="row__text">ПОДАРОК!</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="container">
+                <div class="questions__title title">На вебинаре ты узнаешь</div>
+                <div class="questions__inner">
+                    <div class="questions__img-wrapper">
+                        <img src="https://thumb.tildacdn.com/tild6531-3234-4335-b263-303937313437/-/format/webp/e4b4399e-8831-4013-b.png" alt="">
+                    </div>
+
+                    <div class="questions__text">
+                        <div class="questions__text-item">
+                            <span>Кто такой тестировщик и чем он занимается?</span>
+                            <div class="questions__text-item--hover">
+                                <div class="blue-figure"></div>
+                                <div class="lightBlue-figure"></div>
+                           </div>
+                        </div>
+                        <div class="questions__text-item">
+                            Роль программирования в данной профессии?
+                            <div class="questions__text-item--hover">
+                                <div class="blue-figure"></div>
+                                <div class="lightBlue-figure"></div>
+                           </div>
+                        </div>
+                        <div class="questions__text-item">
+                            Где работают тестировщики и сколько зарабатывают?
+                            <br><br>
+                            <div class="questions__text-item--hover">
+                                <div class="blue-figure"></div>
+                                <div class="lightBlue-figure"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="questions__text-item">
+                            В чем отличие QA тестировщика от QA инженера?
+                            <div class="questions__text-item--hover">
+                                <div class="blue-figure"></div>
+                                <div class="lightBlue-figure"></div>
+                           </div>
+                        </div>
+                        <div class="questions__text-item">
+                            Этапы пути от нуля до трудоустройства
+                            <div class="questions__text-item--hover">
+                                <div class="blue-figure"></div>
+                                <div class="lightBlue-figure"></div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="for">
+            <div class="container">
+                <div class="for__title title">Вебинар для тех, кто</div>
+                <div class="for__inner">
+                    <div class="for__item">
+                        <div class="item__img-wrapper">
+                            <img class="black-img" src="https://thumb.tildacdn.com/tild3631-6639-4762-b734-353732386439/-/cover/220x220/center/center/-/format/webp/explorer-dynamic-pre.png" alt="">
+                            <img class="original-img" src="https://static.tildacdn.com/tild3635-3562-4835-a165-303366366563/explorer-dynamic-col.png" alt="">
+                        </div>
+                        <div class="item__text">Кто хочет работать с гибким графиком и быть хозяином своего времени</div>
+                    </div>
+
+                    <div class="for__item">
+                        <div class="item__img-wrapper">
+                            <img class="black-img" src="https://static.tildacdn.com/tild3438-3464-4231-a334-373562373937/computer-dynamic-pre.svg" alt="">
+                            <img class="original-img" src="https://static.tildacdn.com/tild6366-6238-4139-b536-633430373362/computer-dynamic-col.svg" alt="">
+                        </div>
+                        <div class="item__text">Кто в будущем видит себя IT-специалистом за пределами Казахстана</div>
+                    </div>
+
+                    <div class="for__item">
+                        <div class="item__img-wrapper">
+                            <img class="black-img" src="https://static.tildacdn.com/tild6233-3066-4333-a163-316566626234/money-bag-dynamic-pr.svg" alt="">
+                            <img class="original-img" src="https://static.tildacdn.com/tild3234-3434-4538-a665-643864333761/money-bag-dynamic-co.svg" alt="">
+                        </div>
+                        <div class="item__text">Кто хочет сменить профессию на интересную, востребованную и высокооплачиваемую</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="container">
+                <div class="knowledge__title title">После вебинара ты</div>
+                <div class="knowledge__inner">
+                    <div class="knowledge__item">
+                        <div class="knowledge__img-wrapper">
+                            <img class="original-img" src="https://static.tildacdn.com/tild3333-3064-4965-b034-396364663030/zoom-dynamic-color.png" alt="">
+                            <img class="black-img" src="https://thumb.tildacdn.com/tild3163-3231-4337-b633-333132326633/-/cover/208x208/center/center/-/format/webp/zoom-dynamic-premium.png" alt="">
+                        </div>
+                        <div class="item__text">Те самые 6 шагов для старта карьеры тестировщика с нуля</div>
+                    </div>
+
+                    <div class="knowledge__item">
+                        <div class="knowledge__img-wrapper">
+                            <img src="https://static.tildacdn.com/tild6234-3062-4262-b835-333032626237/file-text-dynamic-pr.png" alt="" class="black-img">
+                            <img class="original-img" src="https://thumb.tildacdn.com/tild3862-3530-4461-b833-336332623632/-/cover/208x208/center/center/-/format/webp/file-text-dynamic-co.png" alt="">
+                        </div>
+                        <div class="item__text">Поймешь, что тебе нужно делать чтобы стать тестировщиком</div>
+                    </div>
+
+                    <div class="knowledge__item">
+                        <div class="knowledge__img-wrapper">
+                            <img class="black-img" src="https://static.tildacdn.com/tild3634-3930-4439-b766-653965376464/dollar-dollar-premiu.png" alt="">
+                            <img class="original-img" src="https://thumb.tildacdn.com/tild6232-3664-4539-b136-643931393062/-/cover/208x208/center/center/-/format/webp/dollar-dollar-color.png" alt="">
+                        </div>
+                        <div class="item__text">Узнаешь сколько сможешь получать уже в первый месяц</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section6">
+            <div class="container">
+                <div class="section6__inner">
+                    <div class="section6__content">
+                        <div class="section6__wrapper">
+                            <h2 class="section6__title title">Спикер</h2>
+                            <div class="section6__item1 item">
+                                <div class="item__img-box user1"></div>
+                                <h3 class="item__title">Кайырлы Куанышбаев</h3>
+                                <ul class="item__list">
+                                    <li class="item__point">- Head of QA (начальник управления отдела тестирования) в Jusan Bank</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section6__wrapper">
+                            <h2 class="section6__title title">Модератор</h2>
+                            <div class="section6__item2 item">
+                                <div class="item__img-box user2"></div>
+                                <h3 class="item__title">Аблай Сармантай</h3>
+                                <ul class="item__list">
+                                    <li class="item__point">- Сооснователь онлайн академии Able</li>
+                                    <li class="item__point">- Выпускник университета METU, Турция, по специальности
+                                        Аэрокосмической инженерии</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section7">
+            <div class="container">
+                <h2 class="section7__title title">О нас</h2>
+                <div class="section7__inner">
+                    <div class="section7__content">
+                        <div class="section7__wrapper">
+                            <span class="section7__number">1</span>
+                            <p class="section7__desc">Первая в Казахстане онлайн школа современных профессий и обучения
+                                программированию</p>
+                        </div>
+                        <div class="section7__wrapper">
+                            <span class="section7__number light-blue">2</span>
+                            <p class="section7__desc light-blue">Два года на рынке Казахстана, и более 70% выпускников
+                                трудоустроились
+                            </p>
+                        </div>
+                        <div class="section7__wrapper">
+                            <span class="section7__number">3</span>
+                            <p class="section7__desc">Наши преподаватели окончили топовые ВУЗы мира, и
+                                работают в Google,Huawei, KPMG, Epam Systems и др.</p>
+                        </div>
+                        <div class="section7__wrapper">
+                            <span class="section7__number light-blue">4</span>
+                            <p class="section7__desc light-blue">С 2022 года мы трудоустраиваем выпускников с 100% гарантией
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section7__image-box">
+                        <img src="https://thumb.tildacdn.com/tild3763-3566-4637-b131-353835376363/-/cover/748x748/center/center/-/format/webp/noroot.png    " alt="">
+
+                        <div class="section7__popup-img-wrapper leftUp">
+                            <img src="https://static.tildacdn.com/tild3534-6133-4662-b063-303166383766/Saly-44.svg" alt="">
+                        </div>
+                        <div class="section7__popup-img-wrapper rightUp">
+                            <img src="https://static.tildacdn.com/tild6134-3837-4537-b235-666461393539/Saly-39.svg  " alt="">
+                        </div>
+                        <div class="section7__popup-img-wrapper leftDown">
+                            <img src="https://static.tildacdn.com/tild6136-6132-4432-a461-373962393662/Saly-38.svg" alt="">
+                        </div>
+                        <div class="section7__popup-img-wrapper rightDown">
+                            <img src="https://static.tildacdn.com/tild6463-6363-4731-a631-633032613737/Saly-31.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section8">
+            <div class="container">
+                <div class="section8__inner">
+                    <h2 class="section8__title title">Наши ученики работают в</h2>
+                    <div class="section8__item">
+                        <div class="item__img-box">
+                            <div class="item__img">
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3935-3337-4166-b335-363633393433/toyota-logo-1989-256.png"
+                                        style="max-width:160px;" alt="toyota">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3562-3862-4630-b637-623862393630/12d5dfe2d0cd2b7331d5.png"
+                                        style="max-width:160px;" alt="bts-digital">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3863-3235-4132-b663-333733313732/logo-01.png"
+                                        style="max-width:160px;" alt="home-credit-bank">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3664-6261-4335-b162-356163363066/Kcell_logo.png"
+                                        style="max-width:160px;" alt="kcell">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild6334-3766-4735-b063-663731626136/darlab_logo.png"
+                                        style="max-width:160px;" alt="darlab">
+                                </div>
+
+
+                        
+
+                         
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild6566-3166-4564-b734-386466386263/d05ade16e37d49675360.png"
+                                        style="max-width:160px;" alt="kazakhtelecom">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3134-3961-4830-a361-666165663537/nitec20logo20rect.png"
+                                        style="max-width:160px;" alt="nitec">
+                                </div>
+
+                                <div class="item__img-row">
+                                    <img class="item__logo"
+                                        src="https://static.tildacdn.com/tild3338-3935-4837-b966-303734613139/2560px-Air_Astana_lo.png"
+                                        style="max-width:160px;" alt="air-astana">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section9">
+                <h2 class="section9__title title">Отзывы</h2>
+                <div class="section9__inner">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="slide__text">Очень порадовала такая возможность что сфера программиста может выдвигать такие разные варианты в дальнейшем, так как не особо себя видела в написании кода и программирования в дальнейшем. Мастер класс мне понравилось и если будет возможность приобрести ваши курсы постараюсь с вами связаться. Спасибо за вебинар очень приятно было ознакомится!</div>
+                            <div class="slide__author">Алуа</div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide__text">Отличный был вебинар, где подробно и постепово разъяснили с чего надо начитать и что изучать дата саентисту, это даёт понимание в каком направлении надо двигаться. Порадовало, что в курсе будут обучать python и sql. В общем, рада что участвовала в вебинаре, время было потрачено не зря, а это самое главное. Наше время - это самый дорогой ресурс в современном мире! ☺️ Хочу пожелать команде Able множество успешно реализованных проектов, успехов и процветания!</div>
+                            <div class="slide__author">Алия</div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide__text">Очень хороший вебинар информативно, что обещали рассказали, понравился блок когда отвечали на вопросы👍</div>
+                            <div class="slide__author">Сунгат</div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide__text">Здравствуйте, очень информативный и полезный вебинар!!!</div>
+                            <div class="slide__author">Райымбек</div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide__text">Добрый день вебинар понравился, очень информативный и спикеры профессионалы своего дела!👍</div>
+                            <div class="slide__author">Нурхат</div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="slide__text">Здравствуйте, вебинар мне понравился, все очень четко, ясно, не было лишней воды, спикеры приятные, видно что опытные</div>
+                            <div class="slide__author">Руслан</div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                      <div class="swiper-buttons">
+                        <button class="s-button-prev"><svg role="presentation" focusable="false" style="display: block" viewBox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Left</desc><polyline fill="none" stroke="#222222" stroke-linejoin="butt" stroke-linecap="butt" stroke-width="1" points="0.5,0.5 6.5,6.5 0.5,12.5"></polyline></svg></button>
+                        <button class="s-button-next"><svg role="presentation" focusable="false" style="display: block" viewBox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Right</desc><polyline fill="none" stroke="#222222" stroke-linejoin="butt" stroke-linecap="butt" stroke-width="1" points="0.5,0.5 6.5,6.5 0.5,12.5"></polyline></svg></button>
+                     </div>
+                </div>
+        </section>
+
+        <section class="application" id="application">
+            <div class="container">
+                <div class="application__title title">Оставьте заявку!</div>
+                <div class="application__inner">
+                    <div class="application__text">
+                        <div class="application__bold">До получения гайда остался 1 шаг:</div>
+                        <div class="application__normal">Оставь заявку и не упусти шанс оказаться на самом качественном вебинаре о Data Science!</div>
+                        <button class="application__btn btn">Оставить заявку</button>
+                    </div>
+                    <div class="application__img-wrapper">
+                        <img src="https://thumb.tildacdn.com/tild3463-3032-4131-b635-346365646366/-/resize/794x/-/format/webp/Saly-31.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal__form-blur">
+            <div class="modal__close-btn">
+                <svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg>
+            </div>
+            <div class="modal__form">
+                <div class="modal__inner">
+                    <div class="modal__title">Оставить заявку</div>
+                    <div class="error"></div>
+                    <input required class="modal__input" type="email" placeholder="Введите ваш эл. адрес">
+                    <input required class="modal__input" type="text" placeholder="Введите ваше имя">
+                    <input required class="modal__input" type="text" placeholder="Введите ваш телефон">
+                    <button class="modal__form-btn" type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <p class="footer__desc">
+                        © 2022 ABLE. - All rights reserved.
+                        <span class="footer__point">Публичная оферта
+                        </span>
+                        <span class="footer__point">Политика конфиденциальности</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
